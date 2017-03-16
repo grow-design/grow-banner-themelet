@@ -118,12 +118,16 @@
 
 	.user-personal-bar {
 		.panel-notifications-count {
-			right: -32px;
+			position: relative;
+			top: 12px;
 		}
 
 		.sticker-sm {
 			background-color: $skincolor;
-			font-size: 12px;
+			font-size: 9px;
+			height: 18px;
+			line-height: 18px;
+			width: 18px;
 		}
 	}
 }
